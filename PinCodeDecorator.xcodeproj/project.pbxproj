@@ -1,0 +1,373 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		2F93984723AB6F9E00E8AB84 /* PinCodeDecorator.h in Headers */ = {isa = PBXBuildFile; fileRef = 2F93984523AB6F9E00E8AB84 /* PinCodeDecorator.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		2F93985223AB700000E8AB84 /* DDPinCodeDecoratorView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2F93984D23AB700000E8AB84 /* DDPinCodeDecoratorView.swift */; };
+		2F93985323AB700000E8AB84 /* DDPinCodeDecoratorShadowModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2F93984E23AB700000E8AB84 /* DDPinCodeDecoratorShadowModel.swift */; };
+		2F93985423AB700000E8AB84 /* DDPinCodeDecoratorModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2F93984F23AB700000E8AB84 /* DDPinCodeDecoratorModel.swift */; };
+		2F93985523AB700000E8AB84 /* DDPinCodeDecorator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2F93985023AB700000E8AB84 /* DDPinCodeDecorator.swift */; };
+		2F93985623AB700000E8AB84 /* DDPinCodeDecoratorIcon.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2F93985123AB700000E8AB84 /* DDPinCodeDecoratorIcon.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		2F93984223AB6F9E00E8AB84 /* PinCodeDecorator.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = PinCodeDecorator.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		2F93984523AB6F9E00E8AB84 /* PinCodeDecorator.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PinCodeDecorator.h; sourceTree = "<group>"; };
+		2F93984623AB6F9E00E8AB84 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		2F93984D23AB700000E8AB84 /* DDPinCodeDecoratorView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DDPinCodeDecoratorView.swift; sourceTree = "<group>"; };
+		2F93984E23AB700000E8AB84 /* DDPinCodeDecoratorShadowModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DDPinCodeDecoratorShadowModel.swift; sourceTree = "<group>"; };
+		2F93984F23AB700000E8AB84 /* DDPinCodeDecoratorModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DDPinCodeDecoratorModel.swift; sourceTree = "<group>"; };
+		2F93985023AB700000E8AB84 /* DDPinCodeDecorator.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DDPinCodeDecorator.swift; sourceTree = "<group>"; };
+		2F93985123AB700000E8AB84 /* DDPinCodeDecoratorIcon.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DDPinCodeDecoratorIcon.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		2F93983F23AB6F9E00E8AB84 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		2F93983823AB6F9E00E8AB84 = {
+			isa = PBXGroup;
+			children = (
+				2F93984423AB6F9E00E8AB84 /* PinCodeDecorator */,
+				2F93984323AB6F9E00E8AB84 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		2F93984323AB6F9E00E8AB84 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				2F93984223AB6F9E00E8AB84 /* PinCodeDecorator.framework */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		2F93984423AB6F9E00E8AB84 /* PinCodeDecorator */ = {
+			isa = PBXGroup;
+			children = (
+				2F93985023AB700000E8AB84 /* DDPinCodeDecorator.swift */,
+				2F93985723AB703700E8AB84 /* View */,
+				2F93985823AB704300E8AB84 /* Model */,
+				2F93984523AB6F9E00E8AB84 /* PinCodeDecorator.h */,
+				2F93984623AB6F9E00E8AB84 /* Info.plist */,
+			);
+			path = PinCodeDecorator;
+			sourceTree = "<group>";
+		};
+		2F93985723AB703700E8AB84 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				2F93984D23AB700000E8AB84 /* DDPinCodeDecoratorView.swift */,
+				2F93985123AB700000E8AB84 /* DDPinCodeDecoratorIcon.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		2F93985823AB704300E8AB84 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				2F93984F23AB700000E8AB84 /* DDPinCodeDecoratorModel.swift */,
+				2F93984E23AB700000E8AB84 /* DDPinCodeDecoratorShadowModel.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		2F93983D23AB6F9E00E8AB84 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2F93984723AB6F9E00E8AB84 /* PinCodeDecorator.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		2F93984123AB6F9E00E8AB84 /* PinCodeDecorator */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 2F93984A23AB6F9E00E8AB84 /* Build configuration list for PBXNativeTarget "PinCodeDecorator" */;
+			buildPhases = (
+				2F93983D23AB6F9E00E8AB84 /* Headers */,
+				2F93983E23AB6F9E00E8AB84 /* Sources */,
+				2F93983F23AB6F9E00E8AB84 /* Frameworks */,
+				2F93984023AB6F9E00E8AB84 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = PinCodeDecorator;
+			productName = PinCodeDecorator;
+			productReference = 2F93984223AB6F9E00E8AB84 /* PinCodeDecorator.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		2F93983923AB6F9E00E8AB84 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 1030;
+				ORGANIZATIONNAME = "Dotsenko ";
+				TargetAttributes = {
+					2F93984123AB6F9E00E8AB84 = {
+						CreatedOnToolsVersion = 10.3;
+						LastSwiftMigration = 1030;
+					};
+				};
+			};
+			buildConfigurationList = 2F93983C23AB6F9E00E8AB84 /* Build configuration list for PBXProject "PinCodeDecorator" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 2F93983823AB6F9E00E8AB84;
+			productRefGroup = 2F93984323AB6F9E00E8AB84 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				2F93984123AB6F9E00E8AB84 /* PinCodeDecorator */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		2F93984023AB6F9E00E8AB84 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		2F93983E23AB6F9E00E8AB84 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2F93985523AB700000E8AB84 /* DDPinCodeDecorator.swift in Sources */,
+				2F93985423AB700000E8AB84 /* DDPinCodeDecoratorModel.swift in Sources */,
+				2F93985323AB700000E8AB84 /* DDPinCodeDecoratorShadowModel.swift in Sources */,
+				2F93985223AB700000E8AB84 /* DDPinCodeDecoratorView.swift in Sources */,
+				2F93985623AB700000E8AB84 /* DDPinCodeDecoratorIcon.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		2F93984823AB6F9E00E8AB84 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.4;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		2F93984923AB6F9E00E8AB84 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		2F93984B23AB6F9E00E8AB84 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_IDENTITY = "";
+				CODE_SIGN_STYLE = Automatic;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = PinCodeDecorator/Info.plist;
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = DD.PinCodeDecorator;
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SKIP_INSTALL = YES;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		2F93984C23AB6F9E00E8AB84 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_IDENTITY = "";
+				CODE_SIGN_STYLE = Automatic;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = PinCodeDecorator/Info.plist;
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = DD.PinCodeDecorator;
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		2F93983C23AB6F9E00E8AB84 /* Build configuration list for PBXProject "PinCodeDecorator" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2F93984823AB6F9E00E8AB84 /* Debug */,
+				2F93984923AB6F9E00E8AB84 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		2F93984A23AB6F9E00E8AB84 /* Build configuration list for PBXNativeTarget "PinCodeDecorator" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2F93984B23AB6F9E00E8AB84 /* Debug */,
+				2F93984C23AB6F9E00E8AB84 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 2F93983923AB6F9E00E8AB84 /* Project object */;
+}
