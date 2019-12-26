@@ -1,19 +1,19 @@
 //
 //  PinViewController.swift
-//  PinCodeDecoratorExample
+//  DDPinCodeDecoratorExample
 //
 //  Created by Dotsenko  on 19.12.2019.
 //  Copyright © 2019 Dotsenko . All rights reserved.
 //
 
 import UIKit
-import PinCodeDecorator
+import DDPinCodeDecorator
 
 class PinViewController: UIViewController {
     
     @IBOutlet weak var pinCodeContenView: UIView!
     
-    let pinCodeDecorator = DDPinCodeDecorator(frame: .zero)
+    let pinCodeDecorator: DDPinCodeDecoratorProtocol = DDPinCodeDecorator(frame: .zero)
     
     override func viewDidLoad() {
         super.viewDidLoad()

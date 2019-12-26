@@ -18,6 +18,16 @@
 		2FDB8F5123ABAC78001B8D71 /* PinViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 2FDB8F5023ABAC78001B8D71 /* PinViewController.xib */; };
 /* End PBXBuildFile section */
 
+/* Begin PBXContainerItemProxy section */
+		F26C562123B548B3003BF82F /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 2F93987723AB717A00E8AB84 /* DDPinCodeDecorator.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 2F93984223AB6F9E00E8AB84;
+			remoteInfo = DDPinCodeDecorator;
+		};
+/* End PBXContainerItemProxy section */
+
 /* Begin PBXCopyFilesBuildPhase section */
 		2F93988723AB84AD00E8AB84 /* CopyFiles */ = {
 			isa = PBXCopyFilesBuildPhase;
@@ -33,7 +43,7 @@
 /* Begin PBXFileReference section */
 		2F4E0E5623AD003D004B2EA0 /* PasswordViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PasswordViewController.swift; sourceTree = "<group>"; };
 		2F4E0E5923AD0072004B2EA0 /* PasswordViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = PasswordViewController.xib; sourceTree = "<group>"; };
-		2F93986223AB710C00E8AB84 /* PinCodeDecoratorExample.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = PinCodeDecoratorExample.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		2F93986223AB710C00E8AB84 /* DDPinCodeDecoratorExample.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = DDPinCodeDecoratorExample.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		2F93986523AB710C00E8AB84 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		2F93986723AB710C00E8AB84 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		2F93986A23AB710C00E8AB84 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
@@ -68,7 +78,7 @@
 		2F93986323AB710C00E8AB84 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				2F93986223AB710C00E8AB84 /* PinCodeDecoratorExample.app */,
+				2F93986223AB710C00E8AB84 /* DDPinCodeDecoratorExample.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -90,12 +100,20 @@
 			path = PinCodeDecoratorExample;
 			sourceTree = "<group>";
 		};
+		F26C561E23B548B3003BF82F /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				F26C562223B548B3003BF82F /* DDPinCodeDecorator.framework */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		2F93986123AB710C00E8AB84 /* PinCodeDecoratorExample */ = {
+		2F93986123AB710C00E8AB84 /* DDPinCodeDecoratorExample */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 2F93987423AB710F00E8AB84 /* Build configuration list for PBXNativeTarget "PinCodeDecoratorExample" */;
+			buildConfigurationList = 2F93987423AB710F00E8AB84 /* Build configuration list for PBXNativeTarget "DDPinCodeDecoratorExample" */;
 			buildPhases = (
 				2F93985E23AB710C00E8AB84 /* Sources */,
 				2F93985F23AB710C00E8AB84 /* Frameworks */,
@@ -106,9 +124,9 @@
 			);
 			dependencies = (
 			);
-			name = PinCodeDecoratorExample;
+			name = DDPinCodeDecoratorExample;
 			productName = PinCodeDecoratorExample;
-			productReference = 2F93986223AB710C00E8AB84 /* PinCodeDecoratorExample.app */;
+			productReference = 2F93986223AB710C00E8AB84 /* DDPinCodeDecoratorExample.app */;
 			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
@@ -126,7 +144,7 @@
 					};
 				};
 			};
-			buildConfigurationList = 2F93985D23AB710C00E8AB84 /* Build configuration list for PBXProject "PinCodeDecoratorExample" */;
+			buildConfigurationList = 2F93985D23AB710C00E8AB84 /* Build configuration list for PBXProject "DDPinCodeDecoratorExample" */;
 			compatibilityVersion = "Xcode 9.3";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
@@ -137,12 +155,28 @@
 			mainGroup = 2F93985923AB710C00E8AB84;
 			productRefGroup = 2F93986323AB710C00E8AB84 /* Products */;
 			projectDirPath = "";
+			projectReferences = (
+				{
+					ProductGroup = F26C561E23B548B3003BF82F /* Products */;
+					ProjectRef = 2F93987723AB717A00E8AB84 /* DDPinCodeDecorator.xcodeproj */;
+				},
+			);
 			projectRoot = "";
 			targets = (
-				2F93986123AB710C00E8AB84 /* PinCodeDecoratorExample */,
+				2F93986123AB710C00E8AB84 /* DDPinCodeDecoratorExample */,
 			);
 		};
 /* End PBXProject section */
+
+/* Begin PBXReferenceProxy section */
+		F26C562223B548B3003BF82F /* DDPinCodeDecorator.framework */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.framework;
+			path = DDPinCodeDecorator.framework;
+			remoteRef = F26C562123B548B3003BF82F /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+/* End PBXReferenceProxy section */
 
 /* Begin PBXResourcesBuildPhase section */
 		2F93986023AB710C00E8AB84 /* Resources */ = {
@@ -346,7 +380,7 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		2F93985D23AB710C00E8AB84 /* Build configuration list for PBXProject "PinCodeDecoratorExample" */ = {
+		2F93985D23AB710C00E8AB84 /* Build configuration list for PBXProject "DDPinCodeDecoratorExample" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				2F93987223AB710F00E8AB84 /* Debug */,
@@ -355,7 +389,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		2F93987423AB710F00E8AB84 /* Build configuration list for PBXNativeTarget "PinCodeDecoratorExample" */ = {
+		2F93987423AB710F00E8AB84 /* Build configuration list for PBXNativeTarget "DDPinCodeDecoratorExample" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				2F93987523AB710F00E8AB84 /* Debug */,

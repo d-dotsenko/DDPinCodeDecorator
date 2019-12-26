@@ -7,13 +7,13 @@
 //
 
 import UIKit
-import PinCodeDecorator
+import DDPinCodeDecorator
 
 class PasswordViewController: UIViewController {
     
     @IBOutlet weak var pinCodeContenView: UIView!
     
-    let passwordDecorator = DDPinCodeDecorator(frame: .zero)
+    let passwordDecorator: DDPinCodeDecoratorProtocol = DDPinCodeDecorator(frame: .zero)
     
     override func viewDidLoad() {
         super.viewDidLoad()
