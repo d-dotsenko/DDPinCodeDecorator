@@ -116,14 +116,14 @@ pinCodeDecorator.delSymbol()
 
 // delegate method called
 func provideResult(module: DDPinCodeDecoratorProtocol, result: String) {
-if module === self.pinCodeDecorator {
-if result == "1234" {
-module.showSuccess()
-} else {
-module.showUnsuccess()
-animate(module: module)
-}
-}
+    if module === self.pinCodeDecorator {
+        if result == "1234" {
+            module.showSuccess()
+        } else {
+            module.showUnsuccess()
+            animate(module: module)
+        }
+    }
 }
 ```
 
