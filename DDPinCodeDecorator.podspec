@@ -10,7 +10,7 @@ Pod::Spec.new do |spec|
 	spec.homepage 		= "https://github.com/d-dotsenko/DDPinCodeDecorator"
 	spec.source 		= { :git => "https://github.com/d-dotsenko/DDPinCodeDecorator.git", :tag => "#{spec.version}" }
 	spec.frameworks 	= "UIKit"
-	spec.source_files 	= "DDPinCodeDecorator/**/*.{h,swift}"
+	spec.source_files 	= "PinCodeDecorator/**/*.{h,swift}"
 	spec.swift_version 	= "5"
 	spec.ios.deployment_target 	= "10"
 end
