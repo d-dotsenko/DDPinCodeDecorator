@@ -14,20 +14,9 @@
 		2F93986B23AB710C00E8AB84 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2F93986923AB710C00E8AB84 /* Main.storyboard */; };
 		2F93986D23AB710F00E8AB84 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2F93986C23AB710F00E8AB84 /* Assets.xcassets */; };
 		2F93987023AB710F00E8AB84 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2F93986E23AB710F00E8AB84 /* LaunchScreen.storyboard */; };
-		2F93988823AB84D100E8AB84 /* PinCodeDecorator.framework in CopyFiles */ = {isa = PBXBuildFile; fileRef = 2F93987C23AB717A00E8AB84 /* PinCodeDecorator.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
 		2FDB8F4E23ABAC25001B8D71 /* PinViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2FDB8F4D23ABAC25001B8D71 /* PinViewController.swift */; };
 		2FDB8F5123ABAC78001B8D71 /* PinViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 2FDB8F5023ABAC78001B8D71 /* PinViewController.xib */; };
 /* End PBXBuildFile section */
-
-/* Begin PBXContainerItemProxy section */
-		2F93987B23AB717A00E8AB84 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = 2F93987723AB717A00E8AB84 /* PinCodeDecorator.xcodeproj */;
-			proxyType = 2;
-			remoteGlobalIDString = 2F93984223AB6F9E00E8AB84;
-			remoteInfo = PinCodeDecorator;
-		};
-/* End PBXContainerItemProxy section */
 
 /* Begin PBXCopyFilesBuildPhase section */
 		2F93988723AB84AD00E8AB84 /* CopyFiles */ = {
@@ -36,7 +25,6 @@
 			dstPath = "";
 			dstSubfolderSpec = 7;
 			files = (
-				2F93988823AB84D100E8AB84 /* PinCodeDecorator.framework in CopyFiles */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -52,7 +40,7 @@
 		2F93986C23AB710F00E8AB84 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		2F93986F23AB710F00E8AB84 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		2F93987123AB710F00E8AB84 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		2F93987723AB717A00E8AB84 /* PinCodeDecorator.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = PinCodeDecorator.xcodeproj; path = ../../PinCodeDecorator.xcodeproj; sourceTree = "<group>"; };
+		2F93987723AB717A00E8AB84 /* DDPinCodeDecorator.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = DDPinCodeDecorator.xcodeproj; path = ../../DDPinCodeDecorator.xcodeproj; sourceTree = "<group>"; };
 		2FDB8F4D23ABAC25001B8D71 /* PinViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PinViewController.swift; sourceTree = "<group>"; };
 		2FDB8F5023ABAC78001B8D71 /* PinViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = PinViewController.xib; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -71,7 +59,7 @@
 		2F93985923AB710C00E8AB84 = {
 			isa = PBXGroup;
 			children = (
-				2F93987723AB717A00E8AB84 /* PinCodeDecorator.xcodeproj */,
+				2F93987723AB717A00E8AB84 /* DDPinCodeDecorator.xcodeproj */,
 				2F93986423AB710C00E8AB84 /* PinCodeDecoratorExample */,
 				2F93986323AB710C00E8AB84 /* Products */,
 			);
@@ -100,14 +88,6 @@
 				2F93987123AB710F00E8AB84 /* Info.plist */,
 			);
 			path = PinCodeDecoratorExample;
-			sourceTree = "<group>";
-		};
-		2F93987823AB717A00E8AB84 /* Products */ = {
-			isa = PBXGroup;
-			children = (
-				2F93987C23AB717A00E8AB84 /* PinCodeDecorator.framework */,
-			);
-			name = Products;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -157,28 +137,12 @@
 			mainGroup = 2F93985923AB710C00E8AB84;
 			productRefGroup = 2F93986323AB710C00E8AB84 /* Products */;
 			projectDirPath = "";
-			projectReferences = (
-				{
-					ProductGroup = 2F93987823AB717A00E8AB84 /* Products */;
-					ProjectRef = 2F93987723AB717A00E8AB84 /* PinCodeDecorator.xcodeproj */;
-				},
-			);
 			projectRoot = "";
 			targets = (
 				2F93986123AB710C00E8AB84 /* PinCodeDecoratorExample */,
 			);
 		};
 /* End PBXProject section */
-
-/* Begin PBXReferenceProxy section */
-		2F93987C23AB717A00E8AB84 /* PinCodeDecorator.framework */ = {
-			isa = PBXReferenceProxy;
-			fileType = wrapper.framework;
-			path = PinCodeDecorator.framework;
-			remoteRef = 2F93987B23AB717A00E8AB84 /* PBXContainerItemProxy */;
-			sourceTree = BUILT_PRODUCTS_DIR;
-		};
-/* End PBXReferenceProxy section */
 
 /* Begin PBXResourcesBuildPhase section */
 		2F93986023AB710C00E8AB84 /* Resources */ = {
