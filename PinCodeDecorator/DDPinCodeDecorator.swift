@@ -161,7 +161,7 @@ public class DDPinCodeDecorator: DDPinCodeDecoratorProtocol, DDPinCodeDecoratorV
             return self._view
         }
     }
-    open var delegate: DDPinCodeDecoratorOutput?
+    open weak var delegate: DDPinCodeDecoratorOutput?
     open var resultString: String = "" {
         didSet {
             print(self.resultString)
